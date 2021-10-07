@@ -22,10 +22,20 @@ for(let i = 0; i< mas3.length; i++) {
 // ir jos reikšmę
 const obj1 = { labas: 'vakaras', laba: 'diena', labs: 'ryts' };
 
-console.log(obj1.labas);
-console.log(obj1.laba);
-console.log(obj1.labs);
- 
+let vakaras = {
+    labas: 'vakaras'
+};
+
+let diena = {
+    laba: 'diena'
+};
+
+let rytas = {
+    labs: 'ryts'
+};
+
+console.log(vakaras, diena, rytas);
+
 //9. Sukurti klasę Grybas. Klasėje sukurti savybė tipas. Iš klasės sukurti
 // 3 Grybo objektus, savybei tipas priskiriant "Baravykas", "Ūmedė" ir "Lepšis"
 
@@ -38,22 +48,25 @@ let g1 = new Grybas("Baravykas");
 let g2 = new Grybas("Ūmedė");
 let g3 = new Grybas("Lepšis");
 
+console.log(g1, g2, g3);
+
+
+// IKI CIA ISSPRESTA_______________________________________________________________________
+
 // //4. Duotas masyvas, masyvą iteruoti ciklu forEach ir console.log kiekvienoje
 // // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė prasideda raide A arba a
-
 // const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas', 'Mažas triušis']
-
 
 
 // //5. Duotas stringas, suskaičiuoti kiek stringe yra raidžių z
 // const str1 = 'Storas zebras, bėga nuo zuulu genties nedžiotojų.';
+
 
 // //6. Duotas Setas, į kurį reikia pridėti reikšmes (stringus) 'Labas' ir 'Ate' ir console.log
 // // atspausdinti Seto ilgį
 // const set1 = new Set(['Labas', 'Vakaras', 'Rytas', 'Valio']);
 
 
- 
 // //7. Suprototaipinti standartinį String tipo objektą, pridedant metodą lastCharIs(), 
 // // kuris grąžintų paskutinį stringo simbolį. Pademonstruoti veikimą su stringu 'Ku Ku';
 // const str2 = 'Ku ku';
