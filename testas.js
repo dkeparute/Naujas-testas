@@ -22,19 +22,11 @@ for(let i = 0; i< mas3.length; i++) {
 // ir jos reikšmę
 const obj1 = { labas: 'vakaras', laba: 'diena', labs: 'ryts' };
 
-let vakaras = {
-    labas: 'vakaras'
-};
-
-let diena = {
-    laba: 'diena'
-};
-
-let rytas = {
-    labs: 'ryts'
-};
-
-console.log(vakaras, diena, rytas);
+for (const key in obj1) {
+  if (user.hasOwnProperty(key)) {
+      console.log(`${key}: ${obj1[key]}`);
+}
+}
 
 //9. Sukurti klasę Grybas. Klasėje sukurti savybė tipas. Iš klasės sukurti
 // 3 Grybo objektus, savybei tipas priskiriant "Baravykas", "Ūmedė" ir "Lepšis"
