@@ -57,18 +57,6 @@ return this.split("")
 }
 console.log(str2.lastCharIs());
 
-//7. Suprototaipinti standartinį String tipo objektą, pridedant metodą lastCharIs(), 
-// kuris grąžintų paskutinį stringo simbolį. Pademonstruoti veikimą su stringu 'Ku Ku';
-// console.log(str2.lastCharIs()) po prototaipinimo eilutė turi veikti.
-
-
-const str2 = 'Ku ku';
-
-String.prototype.lastCharIs = function() {
-return this[this.length-1]
-}
-console.log(str2.lastCharIs());
-
 //8. Duotas objektas, kurį reikia iteruoti, kiekvienoje iteracijoje išvedant savybę
 // ir jos reikšmę
 const obj1 = { labas: 'vakaras', laba: 'diena', labs: 'ryts' };
@@ -88,4 +76,3 @@ let g2 = new Grybas("Ūmedė");
 let g3 = new Grybas("Lepšis");
 
 console.log(g1, g2, g3);
-
